@@ -30,7 +30,7 @@ while ((rs=getopt(argc, argv, ":a:b:c:o:h")) !=-1){
     switch(rs){
         case 'a': firstarg = atoi(optarg); break;
         case 'b': secondarg = atoi(optarg); break;
-        case 'c': result = (optarg); break;
+        //case 'c': result = (optarg); break;
         case 'o': op.assign(optarg); break;
         case 'h': printhelp(); exit(0);
         case '?': printerror(); exit(1); // не введено значение

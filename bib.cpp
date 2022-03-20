@@ -8,7 +8,7 @@ using namespace std;
 
 int add(int firstarg, int secondarg){
 	int base1 = 16, sum = 0, i = 0, j;
-	// string firstarg;
+	string firstarg;
 	string a = "0123456789ABCDEF";
 	// cin >> firstarg; //ввод строки n
 	int size = firstarg.size(); //определение размера строки
